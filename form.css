@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(200, 204, 200);
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: azure;
+    width: 400px;
+    display: flex;
+    padding: 25px;
+    line-height: 30px;
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(148, 158, 158);;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: orange;
+    color: white;
+}
